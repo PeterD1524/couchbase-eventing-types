@@ -8,13 +8,13 @@ Definitions are written by inspecting `globalThis` in the [Debugger](https://doc
 
 tsconfig.json:
 
-```json
+```jsonc
 {
   "compilerOptions": {
     "strict": true, // yes
     "types": ["couchbase-eventing-types"], // include the types
-    "lib": ["ES2024", "ESNext.Array"] // the JavaScript engine seems to support these APIs
-  }
+    "lib": ["ES2024", "ESNext.Array"], // the JavaScript engine seems to support these APIs
+  },
 }
 ```
 
