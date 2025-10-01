@@ -1,0 +1,4 @@
+{
+  "files": ["index.d.ts"],
+  "compilerOptions": { "lib": ["ES2024", "ESNext.Array"] }
+}
