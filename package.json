@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/PeterD1524/couchbase-eventing-types"
   },
+  "scripts": {
+    "format": "prettier --write index.d.ts handlers.ts",
+    "format:check": "prettier --check index.d.ts handlers.ts"
+  },
   "devDependencies": {
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
